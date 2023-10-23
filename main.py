@@ -9,5 +9,5 @@ def get_day_name():
 
 def get_month_name():
     date_obj = datetime.utcnow()
-    month_name = date_obj.strftime('%m')
+    month_name = date_obj.strftime('%B')
     return month_name
